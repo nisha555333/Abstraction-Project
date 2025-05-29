@@ -11,6 +11,10 @@ public class Print {
 		System.out.println(s.collectdata());
 		System.out.println(s.calculatedata());
 		System.out.print("the area of Circle"+" "+ s.dispaly());
+		
+		
+		
+		
 	}
 
 }
