@@ -1,17 +1,24 @@
 package arrays;
 import java.util.Scanner;
 public class Print {
-	public static void main(String args[]) {
-		Scanner sc = new Scanner(System.in);
-		Square s = new Square();
-		System.out.println(s.collectdata());
-		System.out.println(s.calculatedata());
-		System.out.print("the area of Square"+" "+ s.dispaly());
-		Circle c = new Circle();
-		System.out.println(s.collectdata());
-		System.out.println(s.calculatedata());
-		System.out.print("the area of Circle"+" "+ s.dispaly());
-		System.out.println("Hello world ");
-	}
+    public static void main(String[] args) {
+    	Scanner sc = new Scanner(System.in);
+        Square s = new Square();
+        s.collectdata();
+        s.calculatedata();
+        System.out.print("The area of the Square: ");
+        s.display();
 
+        Circle c = new Circle();
+        c.collectdata();
+        c.calculatedata();
+        System.out.print("The area of the Circle: ");
+        c.display();
+
+        Triangle t = new Triangle();
+        t.collectdata();
+        t.calculatedata();
+        System.out.print("The area of the Triangle: ");
+        t.display();
+    }
 }
