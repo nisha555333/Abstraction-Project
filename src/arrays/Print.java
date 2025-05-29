@@ -10,7 +10,8 @@ public class Print {
 		Circle c = new Circle();
 		System.out.println(s.collectdata());
 		System.out.println(s.calculatedata());
-		System.out.print("the area of Circle"+" "+ s.dispaly());	
+		System.out.print("the area of Circle"+" "+ s.dispaly());
+		System.out.println("Hello world ");
 	}
 
 }
