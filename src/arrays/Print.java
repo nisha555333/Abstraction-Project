@@ -1,8 +1,8 @@
 package arrays;
-import java.util.Scanner;
+//import java.util.Scanner;
 public class Print {
     public static void main(String[] args) {
-    	Scanner sc = new Scanner(System.in);
+//    	Scanner sc = new Scanner(System.in);
         Square s = new Square();
         s.collectdata();
         s.calculatedata();
